@@ -1,0 +1,194 @@
+:root{
+    --blue-dark: #1F2937;
+    --white: #F9FAF8;
+    --grey: #E5E7EB; 
+    --blue-button-background: #3882F6;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+img{
+    width: 500px;
+    height: 350px;
+}
+
+
+/* ============
+    header
+    ==========*/
+.header{
+    display: flex;
+    flex-direction: column;
+    background-color: var(--blue-dark);
+    padding: 10px 150px 80px 150px;
+}
+
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#logo{
+    width: 150px;
+    height: 150px;
+}
+
+.header ul{
+    list-style: none;
+    display: flex;
+    gap: 20px;
+}
+
+.header ul a{
+    text-decoration: none;
+    color: var(--grey);
+}
+
+/* Hero Section */
+.hero{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 50px;
+}
+
+.hero-title-container{
+    width: 450px;
+}
+
+.hero-title{
+    font-size: 48px;
+    font-weight: bold;
+    color: var(--white);
+}
+
+.hero-subtitle{
+    font-size: 18px;
+    color: var(--grey);
+}
+
+.hero-title-container button{
+    background-color: var(--blue-button-background);
+    color: var(--white);
+    padding: 8px 25px;
+    border-radius: 10px;
+    border-style: none;
+    margin-top: 5px;
+}
+
+/* ============
+    main
+    ==========*/
+.main{
+    display: flex;
+    flex-direction: column;
+    align-items: center;    
+    padding: 50px 0;
+}
+
+.main-title{
+    font-size: 36px;
+    font-weight: bold;
+    color: var(--blue-dark);
+}
+
+.img-container{
+    display: flex;
+    align-items: center;
+    gap: 50px;
+    margin-top: 20px;
+}
+
+.img-box{
+    text-align: center;
+}
+
+.img-box img{
+    width: 150px;
+    height: 150px;
+    border: 5px solid #3882F6;
+    border-radius: 10px;
+    padding: 10px;
+}
+
+.img-title{
+    color: rgba(0, 0, 0, 0.9);
+}
+
+
+/* ============
+    quote
+    ==========*/
+.quote{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--grey);
+    padding: 50px 0;
+}
+
+.quote-container{
+    width: 750px;
+}
+
+.quote-title, .quote-author{
+    font-size: 36px;
+    font-weight: 100;
+    color: var(--blue-dark);
+    font-style: italic;
+}
+
+.quote-author{
+    text-align: right;
+}
+
+/* ============
+     contact
+    ==========*/
+
+.contact{
+    padding: 50px 0;
+}
+
+.contact-container{
+    display: flex;
+    justify-content: space-around;
+    padding: 10px 30px;
+    border-radius: 10px;
+    background-color: var(--blue-button-background);
+    width: 750px;
+    margin: 0 auto;
+}
+
+.contact-title{
+    color: var(--white);
+    font-size: 24px;
+}
+
+.contact-subtitle{
+    color: var(--grey);
+}
+
+.contact-container button{
+    color: var(--white);
+    background-color: transparent;
+    border-style: none;
+    border: 1px solid white;
+    padding: 0 50px;
+    border-radius: 10px;
+}
+
+/* ============
+     footer
+    ==========*/
+.footer{
+    padding: 25px 0;
+    background-color: var(--blue-dark);
+    color: var(--white);
+    text-align: center;
+}
